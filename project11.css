@@ -1,0 +1,76 @@
+
+box-sizing:boder-box
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: aqua;
+    overflow: hidden;
+}
+header .logo{
+    width: 20%;
+    float: left;
+}
+header .logo  img{
+    width: 50%;
+    float: left;
+}
+header . menu{
+    width: 80%;
+    float:right;
+}
+
+.menu ul{
+    list-style-type: none;
+    
+}
+.menu ul li {
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 40px 50px;
+    display: inline-block;
+    font-size: 25px;
+    color: black;
+}
+.menu ul li a:hover{
+    background-color: red;
+}
+#heroarea{
+    background-image: url('assets/image/index.jpg');
+    background-position: center;
+
+}
+#heroarea h1{
+    padding: 15px 100px;
+    color: red;
+    font-size: 80px;
+}
+
+#mainarea div{
+    width: 25%;
+    float: right;
+    margin: 20px;
+    padding: 20px;
+}
+#mainarea div h1{
+    margin-bottom: 20px;
+}
+#mainarea .part1{
+    background-color: chartreuse;
+    color:red;
+}
+#mainarea .part2{
+    background-color: deepskyblue;
+}
+#mainarea .part3{
+    background-color: violet;
+}
+#mainarea .part1 :hover{
+    transform: rotate(300deg);
+    background-color:coral;
+}
+
